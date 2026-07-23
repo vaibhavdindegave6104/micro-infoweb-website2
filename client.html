@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CORPORATE WEB</title>
+    <link rel="stylesheet" href="client.css">
+  
+</head>
+<body>
+
+<!-- HEADER -->
+ 
+    <header>
+ 
+        <div class="container header-content">
+ 
+            <div class="logo">
+                <h2>MICRO <span>INFOWEB</span></h2>
+            </div>
+ 
+            <nav>
+ 
+                <ul>
+ 
+                    <li><a href="index.html" class="active">Home</a></li>
+ 
+                    <li><a href="about-us.html">About</a></li>
+ 
+                    <li><a href="service.html">Services</a></li>
+ 
+                    <li><a href="client.html">Clients & testimonials</a></li>
+ 
+ 
+                    <li><a href="contact.html">Contact</a></li>
+ 
+                    <li><a href="careers.html">Careers</a></li>
+ 
+                </ul>
+ 
+            </nav>
+ 
+        </div>
+ 
+    
+    
+</header>
+
+
+
+
+    <!-- CLIENT SECTION-->
+     <section class="Clients">
+         <div class="hero">
+        <h1>Business Solution for Modern Companies</h1>
+        <p>Helping organisation improve performace and growth</p>
+        
+    </div>
+      <h2>Clients</h2>
+        <div class="client-container">
+            <button onclick="showClients('Infosys')" > <img src="images.jpg" alt=""></button>
+            <button onclick="showClients('tcs')"><img src="image.png" alt="tcs logo"></button>
+            <button onclick="showClients('wipro')"> <img src="images (1).jpg" alt=""></button>
+            <button onclick="showClients('maindra')"><img src="images (2).jpg" alt=""></button>
+        </div>    
+
+            <div id="Clients-info" class="Clients-info">
+            
+            </div>
+        
+     </section>
+
+
+     <!--testemonials-->
+     <section id="testemonials">
+        <h2>Client Testimonials</h2>
+        <section class="Review-form">
+            <h3>Review</h3>
+
+            <form>
+                <input type="text" placeholder="Enter Name"requierd>
+                <input type="text" placeholder="Enter Email" required>
+                <input type="text" placeholder="Type ur Feedback" required>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <div class="testemonial-card">
+            <p id="reviewText"></p>
+            <h4 id="reviewNames"></h4>
+            <div class="review-button">
+                <button onclick="previousReview()">previous</button>
+                <button onclick="nextReview">next</button>
+            </div>
+        </div>
+     </section>
+
+<!--footer-->
+<footer>
+    <p>2026 Corporateweb. All Rights Reserved</p>
+    <button id="topBtn">Back to Top</button>
+</footer>
+<script src="service.js"></script>
+</body>
+</html>
