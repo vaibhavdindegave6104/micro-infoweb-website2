@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+}
+
+body{
+    background: #f2f2f2dc;
+     line-height: 1.5;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ 
+a {
+    text-decoration: none;
+ 
+}
+ 
+li a {
+    font-weight: 500;
+    color : #eb2bd1;
+}
+ 
+ul {
+    list-style: none;
+}
+/* Header Section */
+header {
+    background: #fffbfb;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+ 
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;    
+}
+ 
+.logo span {
+    color: #8e0caf;
+    font-weight: 600;
+}
+ 
+nav ul {
+    display: flex;
+    gap: 1.5rem;
+}
+ 
+nav ul li a {
+    color: #000;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+ 
+nav ul li a:hover {
+    color: #cc00ff;
+}
+
+.hero{
+    background: #50c06c;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    margin-top: 80px;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+    margin-top: 120px;
+}
+
+.card{
+    background: white;
+    width: 220px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgbs(0,0,0,0.2);
+}
+
+footer{
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 140px;
+}
+
+
+.contact-form{
+    width: 50%;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+.contact-form{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+.contact-form input{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border:  1px solid #ccc;
+    border-radius: 4px;
+
+}
+.contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border:  1px solid #ccc;
+    border-radius: 4px;
+
+}
+
+.contact-form button{
+    width: 100%;
+    padding: 10px;
+    background: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-info button:hover{
+    background: #0b2345;
+}
+
+.contact-info h3{
+    margin: 1px;
+    padding: 1px;
+}
+
